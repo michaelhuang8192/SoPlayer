@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Skin skinFolder="..\skin">
+	<Dialog id="10000" name="MAIN_DIALOG" caption="MAIN_DIALOG_CAPTION"
+		width="800" height="600" minWidth="800" minHeight="600" resizable="true" resizingPoint="60,100"
+		normalImg="MAIN_DIALOG.bmp"
+		>
+		<Control id="10001" name="PLAY_BUTTON" right="168" bottom="6" width="33" height="35"
+			normalImg="PLAY_NORMAL.bmp" hoverImg="PLAY_HOVER.bmp" 
+			pressedImg="PLAY_PRESSED.bmp" disabledImg="PLAY_NORMAL.bmp"/>
+		<Control id="10002" name="PAUSE_BUTTON" right="168" bottom="6" width="33" height="35"
+			normalImg="PAUSE_NORMAL.bmp" hoverImg="PAUSE_HOVER.bmp" 
+			pressedImg="PAUSE_PRESSED.bmp" disabledImg="PAUSE_NORMAL.bmp"/>
+		<Control id="10003" name="STOP_BUTTON" right="143" bottom="16" width="15" height="17"
+			normalImg="STOP_NORMAL.bmp" hoverImg="STOP_HOVER.bmp" 
+			pressedImg="STOP_PRESSED.bmp" disabledImg="STOP_DISABLED.bmp"/>
+		<Control id="10004" name="FULLSCREEN_BUTTON" right="207" bottom="16" width="15" height="17"
+			normalImg="FULLSCREEN_NORMAL.bmp" hoverImg="FULLSCREEN_HOVER.bmp" 
+			pressedImg="FULLSCREEN_PRESSED.bmp" disabledImg="FULLSCREEN_DISABLED.bmp"/>
+		<Control id="10005" name="UNMUTE_BUTTON" right="115" bottom="14" width="18" height="18"
+			normalImg="UNMUTE_NORMAL.bmp" hoverImg="UNMUTE_HOVER.bmp" 
+			pressedImg="UNMUTE_PRESSED.bmp"/>
+		<Control id="10006" name="MUTE_BUTTON" right="115" bottom="14" width="18" height="18"
+			normalImg="MUTE_NORMAL.bmp" hoverImg="MUTE_HOVER.bmp" 
+			pressedImg="MUTE_PRESSED.bmp"/>
+		<Control id="10007" name="SOPLOGO_BUTTON" left="11" bottom="4" width="35" height="39"
+			normalImg="SOPLOGO_NORMAL.bmp" hoverImg="SOPLOGO_HOVER.bmp" 
+			pressedImg="SOPLOGO_PRESSED.bmp"/>
+		<Control id="10008" name="EXPLAYER_BUTTON" right="232" bottom="16" width="15" height="17"
+			normalImg="EXPLAYER_NORMAL.bmp" hoverImg="EXPLAYER_HOVER.bmp" 
+			pressedImg="EXPLAYER_PRESSED.bmp" disabledImg="EXPLAYER_DISABLED.bmp"/>
+		
+		
+		
+		<!-- sliders -->
+		<Control id="10101" name="DURATION_SLIDER" left="0" right="0" bottom="42" height="9"
+			normalImg="DURATION_SLIDER_NORMAL.bmp" hoverImg="DURATION_SLIDER_HOVER.bmp" 
+			pressedImg="DURATION_SLIDER_PRESSED.bmp"/>
+			
+		<Control id="10102" name="VOLUME_SLIDER" right="62" bottom="17" height="14" width="50"
+			normalImg="VOLUME_SLIDER_NORMAL.bmp" hoverImg="VOLUME_SLIDER_HOVER.bmp" 
+			pressedImg="VOLUME_SLIDER_PRESSED.bmp"/>
+			
+		<!-- static -->
+		<Control id="10301" name="STATUS_STATIC" left="5" right="40"  bottom="54" height="16"
+			bkgroundColor="RGB(0,0,0)" textColor="RGB(137,255,22)" fontName="Arial" fontSize="9"/>
+			
+		<!-- progressbar -->
+		<Control id="10401" name="BUFFER_PROGRESS" right="5" width="25"   bottom="54" height="14"
+			bkgroundColor="RGB(0,0,0)" foregroundColor = "RGB(0, 255, 0)" 
+			textColor="RGB(0, 0, 0)" fontName="Arial" fontSize="14"/>
+		
+		<Control id="10901" name="WMP_PLAYER_CONTROL" left="0" top="0" right="0" bottom="73"/>
+		<Control id="10902" name="REAL_PLAYER_CONTROL" left="0" top="0" right="0" bottom="73" />
+		<Control id="10903" name="CAM_PLAYER_CONTROL" left="0" top="0" right="0" bottom="73" />
+		<Control id="10904" name="ADV_PLAYER_CONTROL" left="0" top="0" right="0" bottom="73" />
+		<Control id="10905" name="AVC_PLAYER_CONTROL" left="0" top="0" right="0" bottom="73" />
+		<Control id="10906" name="FLV_PLAYER_CONTROL" left="0" top="0" right="0" bottom="73" />
+	</Dialog>
+</Skin>
+
+
